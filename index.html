@@ -7,22 +7,34 @@
     <style type="text/css">
         body {
             margin: 0;
+            background-color: black;
+            color: white;
+            display: flex;
+            padding-top: 1em;
         }
+        #start {
+            padding: 1em;
+        } 
     </style>
 </head>
 <body>
     <div id="start">
-        <p>COLLECT THE FLOWERS! WATCH OUT FOR CREATURES!</p>
+        <p>HELLO, PLAYER!</p>
+        <p>ANOTHER GREY DAY<br />IN CONCRETE WORLD.</p>
+        <p>COLLECT THE FLOWERS!</p>
+        <p>WATCH OUT FOR CREATURES!</p>
+        <p>WOULD YOU LIKE MUSIC?</p>
+        <div id="audio">
+            <audio
+                loop = true
+                controls
+                src='assets/snowWorld.mp3'>
+                    Your browser does not support the
+                    <code>audio</code> element.
+            </audio>
+        </div>
+        <p>REFRESH TO PLAY AGAIN!</p>
     </div>
-    <!-- <div id="audio">
-        <audio
-            loop = true
-            controls
-            src='assets/snowWorld.mp3'>
-                Your browser does not support the
-                <code>audio</code> element.
-        </audio>
-    </div> -->
 
 <script type="text/javascript">
     var config = {
